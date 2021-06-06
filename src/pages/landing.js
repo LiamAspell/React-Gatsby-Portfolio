@@ -11,7 +11,7 @@ import pic10 from '../assets/images/pic10.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Liam Aspell 2021</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
@@ -21,7 +21,7 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Liam Aspell</h2>
                     </header>
                     <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
                 </div>

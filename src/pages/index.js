@@ -10,14 +10,14 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
-
+import keys from '../assets/images/keys.jpg'
 class HomeIndex extends React.Component {
     render() {
 
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Liam Aspell"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -26,6 +26,34 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <Banner />
+
+                <section id="two">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>About Me</h2>
+                            </header>
+                        <div style={{
+                            display: 'flex'
+                        }}>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            {/*<img src={keys}  height="250px"/>*/}
+                        </div>
+                    <section id="two">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Massa libero</h2>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                            </ul>
+                        </div>
+                    </section>
+                            <ul className="actions">
+                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                            </ul>
+                        </div>
+                    </section>
 
                 <div id="main">
                     <section id="one" className="tiles">
