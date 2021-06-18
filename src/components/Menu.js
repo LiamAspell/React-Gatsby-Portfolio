@@ -7,15 +7,18 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/landing">Skills</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/generic">Projects</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Experience</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Contact Me</Link></li>
             </ul>
-            <ul className="actions vertical">
+        </div>
+
+        {/*<ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get Started</a></li>
                 <li><a href="#" className="button fit">Log In</a></li>
             </ul>
-        </div>
+        */}
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
     </nav>
 )
@@ -24,4 +27,4 @@ Menu.propTypes = {
     onToggleMenu: PropTypes.func
 }
 
-export default Menu
+export default Menu;
