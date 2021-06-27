@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import Oracle from '../assets/images/oracle.png'
 import pic03 from '../assets/images/pic03.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
@@ -21,14 +22,26 @@ const Elements = (props) => (
                     <header className="major">
                         <h1>My Work Experience</h1>
                     </header>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        padding: '15px'
+                    }}>
+                        <div>
+                            {/*<h2 id="content">Oracle Corporation</h2>*/}
+                            <img src={Oracle} width="300px" height='200px' />
+                            <h4>Dublin, Ireland</h4>
+                            <p>I joined Oracle in June of 2021 as a QA Tools Intern. Originally I expressed an interest in joining the QA tools division of Oracles International Product Solutions (IPS) team. After undertaking a 2nd Year Software Testing Module during my degree, I developed a special interest in the testing process. Passionate to learn more of the impact of QA on modern software development, I was enthused and motivated to join and get working.</p>
 
-                    <h2 id="content">Oracle Corporation</h2>
-                    <h4>Dublin, Ireland</h4>
-                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                        </div>
 
+                        
+
+                    </div>
                     <hr className="major" />
 
-                    <h2 id="content">Harvey Norman Ireland</h2>
+                    {/*<h2 id="content">Harvey Norman Ireland</h2>*/}
                     <h4>Kildare, Ireland</h4>
                     <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 
