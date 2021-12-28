@@ -43,7 +43,7 @@ const Contact = (props) => (
                         <span className="icon alt fa-home"></span>
                         <h3>Website</h3>
                         <span><br />
-                        This is my Website!</span>
+                        You are here already!</span>
                     </div>
                 </section>
             </section>
