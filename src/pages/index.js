@@ -38,24 +38,28 @@ class HomeIndex extends React.Component {
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
                             {/*<img src={keys}  height="250px"/>*/}
                         </div>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            {/* <ul className="actions">
+                                <li><Link to="/landing" className="button next">My Skills and Proficiencies</Link></li>
+                                <li><Link to="/landing" className="button next">Some of my past / current Projects</Link></li>
+                                <li><Link to="/landing" className="button next">My Working Experience (So Far!)</Link></li>
+                                <li><Link to="/landing" className="button next">To Contact Me</Link></li>
+                            </ul> */}
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/landing" className="button next">My Skills and Proficiencies</Link></li>
                             </ul>
-                        </div>
-                    </section>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/generic" className="button next">Some of my past / current Projects</Link></li>
+                            </ul>
+                            <ul className="actions">
+                                <li><Link to="/elements" className="button next">My Working Experience (So Far!)</Link></li>
+                            </ul>
+                            <ul className="actions">
+                                <li><Link to="/contact" className="button next">To Contact Me</Link></li>                                
                             </ul>
                         </div>
                     </section>
 
-                <div id="main">
+                {/* <div id="main">
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
@@ -111,7 +115,7 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
-                </div>
+                </div> */}
 
             </Layout>
         )

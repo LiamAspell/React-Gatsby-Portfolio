@@ -20,7 +20,7 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Skills</h2>
+                        <h1>Skills</h1>
                     </header>
                     <p>This section will document the technologies I have worked with within my time at University and Work. I will talk about my experience with the technologies as well as .</p>
                 </div>
