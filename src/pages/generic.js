@@ -1,9 +1,14 @@
 import React from 'react'
+import { useState } from 'react';
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import {FaGithub, FaLinkedin, FaHackerrank} from 'react-icons/fa';
 import pic11 from '../assets/images/pic11.jpg'
 import gif from '../assets/images/Command Pattern.gif'
+
+const [blogs, setBlogs]=useState([
+    {title: ''}
+]);
 
 const Generic = (props) => (
     <Layout>
@@ -81,6 +86,7 @@ const Generic = (props) => (
         </div>
 
     </Layout>
-)
+);
+
 
 export default Generic
