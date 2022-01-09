@@ -8,6 +8,8 @@ import Python from 'react-icons/fa'
 import pic08 from '../assets/images/pic08.png'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.png'
+import pic11 from '../assets/images/Jira-logo.png'
+import pic12 from '../assets/images/Jenkins.png'
 
 const Landing = (props) => (
     <Layout>
@@ -61,7 +63,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={pic10} alt="" height={350} />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -75,7 +77,41 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={pic11} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Jira</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="box alt">
+                        <div className="col-4"><span className="image fit"><img src={pic12} alt=""   /></span></div>
+                     </div> 
+                    
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Jenkins</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             </section>
+            
         </div>
 
     </Layout>

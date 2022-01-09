@@ -6,9 +6,7 @@ import {FaGithub, FaLinkedin, FaHackerrank} from 'react-icons/fa';
 import pic11 from '../assets/images/pic11.jpg'
 import gif from '../assets/images/Command Pattern.gif'
 
-const [blogs, setBlogs]=useState([
-    {title: ''}
-]);
+
 
 const Generic = (props) => (
     <Layout>
