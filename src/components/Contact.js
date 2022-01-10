@@ -1,28 +1,59 @@
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+
+function Contact() {
+
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        email: '',
+        message: '',
+    
+    });
+    
+    const onSubmit = (e) => {
+        e.preventDefault();
+        send(
+            'service_4tioc87',
+            'template_0easznj',
+            toSend,
+            'user_bIpcsLeetHnvJCPDuvE6N'
+        )
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+                console.log('FAILED...', err);
+            });
+    };
+    
+    const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+    };
 
 
-
-const Contact = (props) => (
-    <section id="contact">
+   return(
+   <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form onSubmit={onSubmit}>
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <input type="text" name="from name"  onChange={handleChange} />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email" onChange={handleChange} />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <input type="text" rows='6' name="email" id="message" onChange={handleChange} />
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <button type='submit'>Submit</button>
+                        {/* <li><input type="submit" value="Send Message" className="special" /></li> */}
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
@@ -47,12 +78,15 @@ const Contact = (props) => (
                         <span className="icon alt fa-home"></span>
                         <h3>Website</h3>
                         <span><br />
-                        You are here already!</span>
+                            You are here already!</span>
                     </div>
                 </section>
             </section>
         </div>
     </section>
-)
+    )
+}
+
+
 
 export default Contact

@@ -5,6 +5,7 @@
   "author": "Hunter Chang",
   "dependencies": {
     "@emailjs/browser": "^3.3.1",
+    "emailjs-com": "^3.2.0",
     "fa-icons": "^0.2.0",
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
