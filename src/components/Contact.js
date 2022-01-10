@@ -49,7 +49,7 @@ function Contact() {
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <input type="text" rows="5" name="email" id="message" onChange={handleChange} />
+                        <input type="text" name="message" id="message" onChange={handleChange} />
                     </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
