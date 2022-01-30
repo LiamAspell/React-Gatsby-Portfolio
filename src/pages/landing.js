@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Python from 'react-icons/fa'
-
+import Certification from '../components/Certification'
 import pic08 from '../assets/images/pic08.png'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.png'
@@ -138,6 +138,18 @@ const Landing = (props) => (
                         <h1>Certifications</h1>
                     </header>
                     <p>This section will document the certifications I have worked with within my time at University and Work. I will talk about my experience with the technologies as well as .</p>
+                </div>
+                <div style={{
+                    justifyContent:'center',
+                    display:'flex',
+                    alignItems: 'center',
+                    
+                    
+                
+                }}>
+                    <Certification />
+                    <Certification />
+                    <Certification />
                 </div>
             </section>
         </div>
