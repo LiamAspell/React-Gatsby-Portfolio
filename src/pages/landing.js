@@ -4,7 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Python from 'react-icons/fa'
-import Certification from '../components/Certification'
+import y from '../components/Certification'
+import Certificate from '../assets/images/Selenium.png'
 import pic08 from '../assets/images/pic08.png'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.png'
@@ -132,27 +133,49 @@ const Landing = (props) => (
                 </section>
             </section>
             
+           
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Certifications</h1>
+                        <h1>Skills</h1>
                     </header>
-                    <p>This section will document the certifications I have worked with within my time at University and Work. I will talk about my experience with the technologies as well as .</p>
-                </div>
-                <div style={{
-                    justifyContent:'center',
-                    display:'flex',
-                    alignItems: 'center',
-                    
-                    
-                
-                }}>
-                    <Certification />
-                    <Certification />
-                    <Certification />
+                    <p>This section will document the technologies I have worked with within my time at University and Work. I will talk about my experience with the technologies as well as .</p>
                 </div>
             </section>
+            <section id="two" className="spotlights">
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={Certificate} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Learning Selenium</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                           
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={Certificate} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Jira</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            
+                        </div>
+                    </div>
+                </section>
+            </section>
+
         </div>
+
+       
 
     </Layout>
 )
