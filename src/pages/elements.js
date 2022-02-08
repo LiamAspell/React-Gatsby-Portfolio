@@ -7,6 +7,7 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import pic14 from '../assets/images/harveynorman.png'
 
 const Elements = (props) => (
     <Layout>
@@ -41,11 +42,11 @@ const Elements = (props) => (
                     </div>
                     <hr className="major" />
 
-                    {/*<h2 id="content">Harvey Norman Ireland</h2>*/}
+                    <img src={pic14} width="400px" height='200px' />
                     <h4>Kildare, Ireland</h4>
-                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <p></p>
 
-                    
+                    {/*
                     <hr className="major" />
 
                     <h2 id="elements">Elements</h2>
@@ -408,7 +409,7 @@ const Elements = (props) => (
                                 </code></pre>
 
                         </div>
-                    </div>
+                </div> */}
 
                 </div>
             </section>

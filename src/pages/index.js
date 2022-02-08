@@ -63,31 +63,31 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Skills</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Skills and Certifications</h3>
+                                <p>What I'm good at!</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Projects</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Some ideas I have executed (or attempted!)</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/generic" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Experience</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Work Experience</h3>
+                                <p></p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/elements" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Contact</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Contact Me</h3>
+                                <p>Have a Query?</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/contact" className="link primary"></Link>
                         </article>
                         
                     </section>

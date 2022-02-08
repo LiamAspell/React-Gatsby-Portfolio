@@ -69,14 +69,14 @@ function Contact() {
                     <div className="contact-method">
                         <span className="icon alt fa-linkedin"></span>
                         <h3>LinkedIn</h3>
-                        <span>https://www.linkedin.com/in/liam-aspell-969822160/</span>
+                        <a href='https://www.linkedin.com/in/liam-aspell-969822160/'>My LinkedIn Page</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Website</h3>
-                        <span><br />
+                        <span>
                             You are here already!</span>
                     </div>
                 </section>
