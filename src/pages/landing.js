@@ -5,7 +5,14 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Python from 'react-icons/fa'
 import y from '../components/Certification'
+
 import Certificate from '../assets/images/Selenium.png'
+import LinuxCommandLine from '../assets/images/LinuxCommandLine.png'
+import LearningDocker from '../assets/images/LearningDocker.png'
+import LearningPython from '../assets/images/LearningPython.png'
+import WorkingRemotely from '../assets/images/WorkingRemotely.png'
+import LearningGit from '../assets/images/Git.png'
+
 import pic08 from '../assets/images/pic08.png'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.png'
@@ -72,7 +79,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Docker</h3>
                             </header>
-                            <p>Docker is another technology that I learned at the beginning of my time at Oracle. Building many new images and containers, and running scripts to automate this work along with creating Dockerfiles the build my images.</p>
+                            <p>Docker is another technology that I learned at the beginning of my time at Oracle. Building many new images and containers, and running scripts to automate this work along with creating Dockerfiles to build my images. I feel it is an important technology to know, and aids me especially within my job as a QA Engineer, where I am required to create new images and containers running new builds on a weekly basis. Docker with the aid of bash scripting allows me to do this very efficiently.</p>
                             
                         </div>
                     </div>
@@ -148,15 +155,72 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={Certificate} alt="" width='90px'/>
+                        <img src={LinuxCommandLine} alt="" width='90px'/>
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Jira</h3>
+                                <h3>Learning Linux Command Line</h3>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="two" className="spotlights">
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={LearningDocker} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Learning Docker</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                           
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={LearningPython} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Learning Python</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="two" className="spotlights">
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={LearningGit} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Learning Git</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                           
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={WorkingRemotely} alt="" width='90px'/>
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Working Remotely</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                         </div>
                     </div>
                 </section>

@@ -7,7 +7,7 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
-import pic14 from '../assets/images/harveynorman.png'
+import HarveyNorman from '../assets/images/harveynorman.png'
 
 const Elements = (props) => (
     <Layout>
@@ -42,7 +42,7 @@ const Elements = (props) => (
                     </div>
                     <hr className="major" />
 
-                    <img src={pic14} width="400px" height='200px' />
+                    <img src={HarveyNorman} width="400px" height='200px' />
                     <h4>Kildare, Ireland</h4>
                     <p></p>
 
