@@ -33,20 +33,24 @@ const Elements = (props) => (
                             {/*<h2 id="content">Oracle Corporation</h2>*/}
                             <img src={Oracle} width="300px" height='200px' />
                             <h4>Dublin, Ireland</h4>
+                            <h5>June 2021 - May 2022</h5>
                             <p>I joined Oracle in June of 2021 as a QA Tools Intern. Originally I expressed an interest in joining the QA tools division of Oracles International Product Solutions (IPS) team. After undertaking a 2nd Year Software Testing Module during my degree, I developed a special interest in the testing process. Passionate to learn more of the impact of QA on modern software development, I was enthused and motivated to join and get working.</p>
 
                         </div>
 
-                        
-
+                
                     </div>
+
                     <hr className="major" />
-
-                    <img src={HarveyNorman} width="400px" height='200px' />
-                    <h4>Kildare, Ireland</h4>
-                    <p></p>
-
-                    {/*
+                    
+                        <div>
+                            <img src={HarveyNorman} width="400px" height='200px' />
+                            <h4>Kildare, Ireland</h4>
+                            <h5>October 2019 - May 2021</h5>
+                            <p>I worked in Harvey Norman in Naas, Co.Kildare for 1 year and 9 months, mostly on a part time basis while progressing through University. All of the positions I carried out during my time there were within the Computers Department, which most interested me. I was originally hired as a Sales person, but advanced into a tech support role soon after. This was a very enjoyable job for me, due to my interest in Computer Hardware, Troubleshooting and resolving issues for customers. </p>
+                        </div>
+                </div>
+                {/*
                     <hr className="major" />
 
                     <h2 id="elements">Elements</h2>
@@ -411,7 +415,7 @@ const Elements = (props) => (
                         </div>
                 </div> */}
 
-                </div>
+
             </section>
 
         </div>
