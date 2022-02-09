@@ -108,7 +108,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Jenkins</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Jenkins is a technology that I still feel quite inexperienced in, although I have done a lot of work with Jenkins machines from both a QA and Machine Learning Context. It is something that is widely used and my experience with this up to now will serve me when getting more comfortable with kubernetes, which is a technology I hope to learn more about in the future.</p>
                             
                         </div>
                     </div>
@@ -122,7 +122,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Jira</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Jira is a resource which I use everyday. It is very important in QA, as I use it to give feedback to developers on what fixes have worked correctly, what needs further work and to report any bugs that I come across while testing. It is an area which I feel largely knowledgable with and also a resource which helps me to stay organized. </p>
                             
                         </div>
                     </div>
