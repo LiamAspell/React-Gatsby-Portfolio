@@ -47,7 +47,7 @@ const Elements = (props) => (
                             <img src={HarveyNorman} width="400px" height='200px' />
                             <h4>Kildare, Ireland</h4>
                             <h5>October 2019 - May 2021</h5>
-                            <p>I worked in Harvey Norman in Naas, Co.Kildare for 1 year and 9 months, mostly on a part time basis while progressing through University. All of the positions I carried out during my time there were within the Computers Department, which most interested me. I was originally hired as a Sales person, but advanced into a tech support role soon after. This was a very enjoyable job for me, due to my interest in Computer Hardware, Troubleshooting and resolving issues for customers. </p>
+                            <p>I  worked in Harvey Norman in Naas, Co.Kildare for 1 year and 9 months, mostly on a part time basis while progressing through University. All of the positions I carried out during my time there were within the Computers Department, which most interested me. I was originally hired as a Sales person, but advanced into a tech support role soon after. This was a very enjoyable job for me, due to my interest in Computer Hardware, Troubleshooting and resolving issues for customers. </p>
                         </div>
                 </div>
                 {/*
