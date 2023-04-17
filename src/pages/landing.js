@@ -24,7 +24,7 @@ import pic13 from '../assets/images/MachineLearning.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Liam Aspell 2021</title>
+            <title>Liam Aspell</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 

@@ -22,7 +22,7 @@ import pic13 from '../assets/images/MachineLearning.jpg'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Liam Aspell 2021</title>
+            <title>Liam Aspell</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 

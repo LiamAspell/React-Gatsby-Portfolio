@@ -15,7 +15,7 @@ const Landing = (props) => (
         <Layout>
            
             <Helmet>
-                <title>Liam Aspell 2021</title>
+                <title>Liam Aspell</title>
                 <meta name="description" content="Landing Page" />
             </Helmet>
         </Layout>
