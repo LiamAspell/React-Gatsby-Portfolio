@@ -113,20 +113,7 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic13} alt="" width='100px'/>
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Jira</h3>
-                            </header>
-                            <p>Jira is a resource which I use everyday. It is very important in QA, as I use it to give feedback to developers on what fixes have worked correctly, what needs further work and to report any bugs that I come across while testing. It is an area which I feel largely knowledgable with and also a resource which helps me to stay organized. </p>
-                            
-                        </div>
-                    </div>
-                </section>
+                
             </section>
             
            

@@ -1,10 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
 import Helmet from 'react-helmet'
-import {FaGithub, FaLinkedin, FaHackerrank} from 'react-icons/fa';
+import {FaGithub, FaYoutube, FaPDF} from 'react-icons/fa';
+import {AiFillFilePdf} from 'react-icons/ai';
 import gif from '../assets/images/Command Pattern.gif'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+
 import BannerLanding from '../components/BannerLanding'
 import Python from 'react-icons/fa'
 import pic08 from '../assets/images/pic08.png'
@@ -39,10 +41,13 @@ const Generic = (props) => (
                     }}>
                         <div>
                             <p>This was my Final Year capstone project, completed over a 6 month phase.</p>
-                            <p>Paragraph 2</p>
-                            <p>Paragraph 3</p>
+                            <p>This was a solo project completed as part of the music programming module in Final Year.</p>
+                            <p>It is a command line based application, which takes letters as arguments, that generates svg code for a variety of different shapes, which can be coloured or styled accordingly. It is basically a minimized version of MS Paint for SVG shapes</p>
+                            
                             <ul className="icons">
-                                <a href="https://github.com/LiamAspell"><FaGithub  color="white" size="3rem"/></a>
+                                <a href="https://github.com/LiamAspell/Final-Year-Project---Browser-Games-inspired-by-Bebras-Tasks/"><FaGithub  color="white" size="3rem"/></a>
+                                <a href="https://www.youtube.com/watch?v=yy7FE2FxwpI&feature=youtu.be&ab_channel=LiamAspell"><FaYoutube  color="red" size="3rem"/></a>
+                                <a href="https://github.com/LiamAspell/Final-Year-Project---Browser-Games-inspired-by-Bebras-Tasks/blob/main/Liam%20Aspell%20CSSE%20Thesis.pdf"><AiFillFilePdf  color="LightBlue" size="3rem"/></a>
                             </ul>
                         </div>
                         {/*<span><img src={pic11} height="600px" width="600px" /></span>*/}
@@ -57,10 +62,12 @@ const Generic = (props) => (
                     }}>
                         <div>
                             <p>This was a solo project completed as part of the music programming module in Final Year.</p>
-                            <p>Paragraph 2</p>
-                            <p>Paragraph 3</p>
+                            <p>It is a command line based application, which takes letters as arguments, that generates svg code for a variety of different shapes, which can be coloured or styled accordingly. It is basically a minimized version of MS Paint for SVG shapes</p>
+                            <p>During this project I learned how to use design patterns such as the memento pattern, factory pattern among others, to implement different functions, such as undo and redo.</p>
                             <ul className="icons">
-                                <a href="https://github.com/LiamAspell"><FaGithub  color="white" size="3rem"/></a>
+                                <a href="https://github.com/LiamAspell/SpotifyUnwrapped"><FaGithub  color="white" size="3rem"/></a>
+                                <a href="https://www.youtube.com/watch?v=Cdv-MGwgIWs&ab_channel=LiamAspell"><FaYoutube  color="red" size="3rem"/></a>
+                                <a href="https://github.com/LiamAspell/SpotifyApi/blob/master/Report%20-%2017300046.pdf"><AiFillFilePdf  color="LightBlue" size="3rem"/></a>
                             </ul>
                         </div>
                         {/*<span><img src={pic11} height="600px" width="600px" /></span>*/}

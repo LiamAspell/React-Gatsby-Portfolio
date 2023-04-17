@@ -76,8 +76,7 @@ function Contact() {
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Website</h3>
-                        <span>
-                            You are here already!</span>
+                   
                     </div>
                 </section>
             </section>

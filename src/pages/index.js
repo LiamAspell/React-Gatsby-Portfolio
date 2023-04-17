@@ -64,28 +64,28 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Skills and Certifications</h3>
-                                <p>What I'm good at!</p>
+                             
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Projects</h3>
-                                <p>Some ideas I have executed (or attempted!)</p>
+                             
                             </header>
                             <Link to="/generic" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Work Experience</h3>
-                                <p>What I've done before and what I'm currently doing!</p>
+                     
                             </header>
                             <Link to="/elements" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Contact Me</h3>
-                                <p>Have a Query?</p>
+                        
                             </header>
                             <Link to="/contact" className="link primary"></Link>
                         </article>
