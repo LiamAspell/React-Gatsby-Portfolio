@@ -55,6 +55,7 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
+                
                 <section>
                     <div className="box alt">
                         <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
