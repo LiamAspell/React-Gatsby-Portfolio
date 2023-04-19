@@ -34,7 +34,8 @@ const Elements = (props) => (
                                 <img src={Oneview} width="450px" height='100px' />
                                 <h4>Dublin, Ireland</h4>
                                 <h5>July 2022 - September 2022</h5>
-                                <p>I joined Oracle in June of 2021 as a QA Tools Intern. Originally I expressed an interest in joining the QA tools division of Oracles International Product Solutions (IPS) team. After undertaking a 2nd Year Software Testing Module during my degree, I developed a special interest in the testing process. Passionate to learn more of the impact of QA on modern software development, I was enthused and motivated to join and get working.</p>
+                                <p>I completed a summer internship at Oneview Healthcare. Oneview Healthcare offer a flexible, interactive paitent engagement system for hospital patients. My responsibilities included building shell scripts to automate tasks on VMWare Airwatch, using the Airwatch API. I also wrote device provisioning guides to be used internally. 
+                                </p>
 
                             </div>
 
